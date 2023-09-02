@@ -25,5 +25,5 @@ hostname = sm.helobuee.com
 
 *******************************/
 
-var body = $response.body.replace(/user":".*?"/g,'user":"99999999,88888888,88-27-27,0,0.0000,0"')
+var body = $response.body.replace(/user":".*?"/g,'user":"99999999999999,88888888,88-27-27,0,0.0000,0"')
 $done({ body });
